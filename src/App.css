@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+    animation: App-logo-float infinite 0.5s;
   }
 }
 
@@ -28,12 +28,18 @@
 
 @keyframes App-logo-float {
   0% {
-    transform: translateY(0);
+    transform: translate(-142px, 314px);
+  }
+  25% {
+    transform: translate(64px, -127px);
   }
   50% {
-    transform: translateY(10px);
+    transform: translate(-142px, 314px);
+  }
+  75% {
+    transform: translate(-142px, 314px);
   }
   100% {
-    transform: translateY(0px);
+    transform: translate(200px, -175px);
   }
 }
